@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import KulaAi from '../../assets/KulaAi.png';
+import KulaAi from '../../../public/KulaAi.png';
 
 const Navbar = () => {
   return (
