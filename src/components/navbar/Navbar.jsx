@@ -1,11 +1,14 @@
 import React from 'react';
 import './Navbar.css';
-import KulaAi from '../../../public/KulaAi.png';
 
 const Navbar = () => {
   return (
     <nav>
-      <img className="navbar-logo" src={KulaAi} alt="Kula.ai" />
+      <img
+        className="navbar-logo"
+        src="https://global-uploads.webflow.com/62efc7cb58ad153bfb146988/62efcbe40b52a66c04de66ce_Frame%2011.png"
+        alt="Kula.ai"
+      />
       <ul className="navbar">
         <li>
           <span className="navbar-link">Product</span>
