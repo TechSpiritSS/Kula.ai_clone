@@ -1,0 +1,45 @@
+.columns-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.right-column {
+  grid-column: 2/2;
+  position: relative;
+}
+
+.left-column {
+  grid-column: 1 / 2;
+}
+
+.text-paragraph {
+  padding: 50px 50px 50px 25px;
+  margin-top: 25vh;
+  margin-bottom: 50vh;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.video-container {
+  position: sticky;
+  top: 5%;
+  /* transform: translateY(-50%); */
+  height: 90vh;
+}
+
+.videoFile {
+  border-radius: 50px;
+  height: 70vh;
+  width: 80vh;
+  object-fit: fill;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
